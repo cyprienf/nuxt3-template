@@ -1,25 +1,25 @@
 {
-    "name": "nuxt-app",
-    "private": true,
-    "type": "module",
-    "lint-staged": {
-        "**/*": "prettier --write --ignore-unknown"
-    },
-    "scripts": {
-        "build": "nuxt build",
-        "dev": "nuxt dev",
-        "generate": "nuxt generate",
-        "preview": "nuxt preview",
-        "postinstall": "nuxt prepare",
-        "prepare": "husky install"
-    },
-    "devDependencies": {
-        "@nuxt/devtools": "latest",
-        "husky": "^8.0.3",
-        "lint-staged": "^15.2.0",
-        "nuxt": "^3.8.2",
-        "prettier": "3.1.1",
-        "vue": "^3.3.10",
-        "vue-router": "^4.2.5"
-    }
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "nuxt": "^3.8.2",
+    "prettier": "3.1.1",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5"
+  }
 }
